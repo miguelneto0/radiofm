@@ -11,28 +11,28 @@
     <link rel="stylesheet" href="stylesradio.css">
 </head>
 <body>
-    <section class="sec1">
+    <section id="section1" class="sec1">
         <nav class="menu">
             <ul class="menu-ul">
                 <!-- <li class="menu-li li-img"><img class="image-logo" src="radio-lsogo.png" alt=""></li> -->
-            <li class="menu-li li-img"><img id="image-logo" class="image-logo" src="radio-logo.png" alt=""></li>
+            <a href="#section1"><li class="menu-li li-img"><img id="image-logo" class="image-logo" src="radio-logo.png" alt=""></li></a>
             <li class="menu-li li-normal"><a style="color: white;" href="#noticiasdiv">Noticias</a></li>
              <li class="menu-li li-normal"><a style="color: white;" href="#programacao">Programação</a></li>
-             <li class="menu-li li-normal">Peça sua música</li>
+             <li class="menu-li li-normal"><a style="color: white;" href="/pedir-musica.html">Peça sua música</a></li>
              <li class="menu-li li-normal">Fale conosco</li>
              <li class="menu-li li-search"><input type="text" name="search" placeholder="Buscar..."></li>
             </ul>
             <div id="player" class="player"><marquee><strong>101,5 Mhz</strong> &nbsp;&nbsp;| &nbsp;&nbsp;Rádio FM Cidade de Pedreiras-MA &nbsp;&nbsp;|&nbsp;&nbsp; <b>TOCANDO AGORA:</b>  &nbsp;Piloto 1 de <b id="toca">Estação Cidade</b> das <b id="hora">10:00 às 13:00</b> &nbsp;&nbsp;||&nbsp;&nbsp; <i id="dia">ZYC 636 FM</i></marquee></div>
             <!--RADIO LIVE-->
             <audio controls autoplay loop volume="60">
-                <source src="https://servidor40-4.brlogic.com:8040/live" type="audio/mpeg" >
+                <source src="https://servidor40-4.brlogic.com:8040/live" type="audio/mpeg" autostart="true">
             </audio>
         </nav>
         <div class="front-left">
             <div class="agora">
                 <img id="noar" style="margin: 2% 12%;" src="noar.png" alt="">
                 <p class="tocando" style="width: 50%; padding: 2%; color: white; text-align: center;">TOCANDO AGORA:</p>
-                <img style="width: 80%; margin-left: 10%;" src="tribuna.png" alt="">
+                <img id="imgprog" style="width: 80%; margin-left: 10%;" src="tribuna.png" alt="">
             </div>
             <div class="parceiro">
                 <h2>PARCERIA</h2>
@@ -57,22 +57,22 @@
         <h1 id="notic">Notícias</h1>
         <div class="news">
             
-                <img class="principal" src="news1.jpeg" alt="">
+                <!-- <img class="principal" src="news1.jpeg" alt=""> -->
                 <p class="legenda">Prefeita Vanessa Maia nomeia secretários do município</p>
             
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam numquam unde praesentium quae sunt ex libero placeat nulla, vel nihil quaerat voluptas, mollitia delectus tenetur nemo ipsa deleniti commodi quam.
+            <p style="color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam numquam unde praesentium quae sunt ex libero placeat nulla, vel nihil quaerat voluptas, mollitia delectus tenetur nemo ipsa deleniti commodi quam.</p>
         </div>
         <div class="prog">
             <!-- <h1>Programação</h1> -->
             <ul class="ul-news">
                 <li class="li-news">
-                    <img class="img-news" src="coleta.jpeg" alt=""><p class="pnew">VÍDEO: EM PEDREIRAS CAÇAMBA DO PAC ESTÁ SENDO UTILIZADA PARA COLETA DO LIXO</p><span class="saiba"><a style="color: rgb(41, 12, 68);">Saiba mais</a></span>
+                    <img class="img-news" src="coleta.jpeg" alt=""><p class="pnew">VÍDEO: EM PEDREIRAS CAÇAMBA DO PAC ESTÁ SENDO UTILIZADA PARA COLETA DO LIXO</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
                 </li>
                 <li class="li-news">
-                    <img class="img-news" src="procon.jpeg" alt=""><p class="pnew">PROCON LANÇA ALGUMAS ORIENTAÇÕES PARA POSSÍVEL VOLTA AS AULAS EM 2021</p><span class="saiba"><a style="color: rgb(41, 12, 68);">Saiba mais</a></span>
+                    <img class="img-news" src="procon.jpeg" alt=""><p class="pnew">PROCON LANÇA ALGUMAS ORIENTAÇÕES PARA POSSÍVEL VOLTA AS AULAS EM 2021</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
                 </li>
                 <li class="li-news">
-                    <img class="img-news" src="loteamento.jpg" alt=""><p class="pnew">CONSTRUÇÕES NO LOTEAMENTO SÃO REATIVADAS APÓS NOVA ADMINISTRAÇÃO</p><span class="saiba"><a style="color: rgb(41, 12, 68);">Saiba mais</a></span>
+                    <img class="img-news" src="loteamento.jpg" alt=""><p class="pnew">CONSTRUÇÕES NO LOTEAMENTO SÃO REATIVADAS APÓS NOVA ADMINISTRAÇÃO</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
                 </li>
                 <li class="li-maisnotic">
                     <a href="/todas-noticias">Ver todas notícias</a>
@@ -107,7 +107,7 @@
                 <tr>
                   <td class="horaf">07:00 às 10:00</td>
                   <td>Tribuna 101</td>
-                  <td>Kleber e Ribinha</td>
+                  <td>Vinicius e Ribinha</td>
                 </tr>
                 <tr>
                   <td class="horaf">10:00 às 13:00</td>

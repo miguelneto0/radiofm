@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio FM Cidade :: 101,5 Mhz</title>
+    <link rel="stylesheet" href="pagina-one.css">
+    <link rel="stylesheet" href="pagina-two.css">
+    <link rel="stylesheet" href="pagina-three.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="stylesradio.css">
+</head>
+<body>
+    <section class="sec1">
+        <nav class="menu">
+            <ul class="menu-ul">
+                <!-- <li class="menu-li li-img"><img class="image-logo" src="radio-lsogo.png" alt=""></li> -->
+            <li class="menu-li li-img"><img id="image-logo" class="image-logo" src="radio-logo.png" alt=""></li>
+            <li class="menu-li li-normal"><a style="color: white;" href="#noticiasdiv">Noticias</a></li>
+             <li class="menu-li li-normal"><a style="color: white;" href="#programacao">Programação</a></li>
+             <li class="menu-li li-normal">Peça sua música</li>
+             <li class="menu-li li-normal">Fale conosco</li>
+             <li class="menu-li li-search"><input type="text" name="search" placeholder="Buscar..."></li>
+            </ul>
+            <div id="player" class="player"><marquee><strong>101,5 Mhz</strong> &nbsp;&nbsp;| &nbsp;&nbsp;Rádio FM Cidade de Pedreiras-MA &nbsp;&nbsp;|&nbsp;&nbsp; <b>TOCANDO AGORA:</b>  &nbsp;Piloto 1 de <b id="toca">Estação Cidade</b> das <b id="hora">10:00 às 13:00</b> &nbsp;&nbsp;||&nbsp;&nbsp; <i id="dia">ZYC 636 FM</i></marquee></div>
+            <!--RADIO LIVE-->
+            <audio controls autoplay loop volume="60">
+                <source src="https://servidor40-4.brlogic.com:8040/live" type="audio/mpeg" autostart="true">
+            </audio>
+        </nav>
+        <div class="front-left">
+            <div class="agora">
+                <img id="noar" style="margin: 2% 12%;" src="noar.png" alt="">
+                <p class="tocando" style="width: 50%; padding: 2%; color: white; text-align: center;">TOCANDO AGORA:</p>
+                <img id="imgprog" style="width: 80%; margin-left: 10%;" src="tribuna.png" alt="">
+            </div>
+            <div class="parceiro">
+                <h2>PARCERIA</h2>
+                <img id="sublime" src="sublime-logo.png" style="width: 40%;margin: auto;" alt="">
+            </div>
+        </div>
+        <div class="front-right">
+            <ul class="right">
+                <li class="li-right">
+                    <a href="https://www.youtube.com/channel/UCFMcrjqdbpGBl1tJWyjLiTw" target="_blank"><div class="circle"></div></a><div class="divr"><p class="paragsup"><i class="aovivo">AO VIVO</i><br>ACOMPANHE A TRANSMISSÃO AO VIVO NO YOUTUBE [<a href="https://www.youtube.com/channel/UCFMcrjqdbpGBl1tJWyjLiTw">CLICANDO AQUI</a>]</p></div>
+                </li>
+                <li class="li-social">
+                    <div class="circleinf1"><img id="insta" src="insta-logo.png" target="_blank" alt=""><span class="spage1"><strong><a style="text-decoration: none;color: aliceblue;" href="https://instagram.com/cidadefm101">@cidadefm101</a></strong></span></div><div class="divrinf1"><p class="parag">Fique por dentro do que rola nos bastidores. Acesso o nosso instagram</p></div>
+                </li>
+                <li class="li-social">
+                    <div class="circleinf1"><img id="whats" src="whats-logo.png" alt=""><span class="spage1"><p style="font-size: 8pt;display: inline-block;">99</p> <strong>98197-7555</strong></span></div><div class="divrinf1"><p class="parag">Peça sua música ou envie críticas para nosso Whatsapp</p></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="pageone.js"></script>
+</body>
+</html>

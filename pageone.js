@@ -8,8 +8,8 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     // document.getElementsByClassName("menu-li").style.padding = "30px 10px";
     document.getElementById("image-logo").style.width = "10%";
-    document.getElementsByClassName("sec1").style.opacity = ".5";
-    document.getElementById("player").style.background = "rgba(0, 0, 0, 0.411)";
+    // document.getElementsByClassName("sec1").style.opacity = ".5";
+    document.getElementById("player").style.background = "rgba(0, 0, 0, 0.642)";
   } else {
     // document.getElementById("menu-li").style.padding = "80px 10px";
     document.getElementById("image-logo").style.width = "20%";
@@ -48,6 +48,8 @@ function trocaProg(){
     document.getElementById("toca").innerHTML = "Puxa o fole";
     document.getElementById("hora").innerHTML = "16:00 às 18:00";
     document.getElementById("imgprog").src = "puxafole.png";
+    document.getElementById("imgprog").style.width = "40%";
+    document.getElementById("imgprog").style.marginLeft = "29%";
   }else if(hora.getHours() >= 18 && hora.getHours() < 19){
     document.getElementById("toca").innerHTML = "Por do Sol";
     document.getElementById("hora").innerHTML = "18:00 às 19:00";
@@ -70,6 +72,7 @@ function trocaProg(){
 
   if(hora.getDay() == 4)
     dia = "QUI";
+    
   if(hora.getMonth() == 0)
     mes = "Janeiro";
   document.getElementById("dia").innerHTML = " <b>" + dia + "</b> &nbsp;" + hora.getHours() + ":" + hora.getMinutes() + " - &nbsp;" + hora.getDate() + " de " + mes + " de " + hora.getFullYear();

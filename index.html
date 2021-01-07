@@ -55,26 +55,26 @@
     </section>
     <section id="noticiasdiv" class="sec2">
         <h1 id="notic">Notícias</h1>
-        <div class="news">
+        <div id="noticprinc" class="news">
             
                 <!-- <img class="principal" src="news1.jpeg" alt=""> -->
                 <p class="legenda">Prefeita Vanessa Maia nomeia secretários do município</p>
             
-            <p style="color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam numquam unde praesentium quae sunt ex libero placeat nulla, vel nihil quaerat voluptas, mollitia delectus tenetur nemo ipsa deleniti commodi quam.</p>
+            <p style="color: aliceblue; font-family: Calibri, sans-serif; font-size: ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam numquam unde praesentium quae sunt ex libero placeat nulla, vel nihil quaerat voluptas, mollitia delectus tenetur nemo ipsa deleniti commodi quam.</p>
         </div>
         <div class="prog">
             <!-- <h1>Programação</h1> -->
             <ul class="ul-news">
-                <li class="li-news">
-                    <img class="img-news" src="coleta.jpeg" alt=""><p class="pnew">VÍDEO: EM PEDREIRAS CAÇAMBA DO PAC ESTÁ SENDO UTILIZADA PARA COLETA DO LIXO</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
+                <li id="news-fst" class="li-news" onclick="changeNews1()">
+                    <img id="imgli1" class="img-news" src="coleta.jpeg" alt=""><p class="pnew">VÍDEO: EM PEDREIRAS CAÇAMBA DO PAC ESTÁ SENDO UTILIZADA PARA COLETA DO LIXO</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
                 </li>
-                <li class="li-news">
-                    <img class="img-news" src="procon.jpeg" alt=""><p class="pnew">PROCON LANÇA ALGUMAS ORIENTAÇÕES PARA POSSÍVEL VOLTA AS AULAS EM 2021</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
+                <li id="news-snd" class="li-news news-snd" onclick="changeNews2()">
+                    <img id="imgli2" class="img-news" src="procon.jpeg" alt=""><p class="pnew">PROCON LANÇA ALGUMAS ORIENTAÇÕES PARA POSSÍVEL VOLTA AS AULAS EM 2021</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
                 </li>
-                <li class="li-news">
-                    <img class="img-news" src="loteamento.jpg" alt=""><p class="pnew">CONSTRUÇÕES NO LOTEAMENTO SÃO REATIVADAS APÓS NOVA ADMINISTRAÇÃO</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
+                <li id="news-trd" class="li-news news-trd" onclick="changeNews3()">
+                    <img id="imgli3" class="img-news" src="loteamento.jpg" alt=""><p class="pnew">CONSTRUÇÕES NO LOTEAMENTO SÃO REATIVADAS APÓS NOVA ADMINISTRAÇÃO</p><span class="saiba"><a href="#" style="color: rgb(41, 12, 68);">Saiba mais</a></span>
                 </li>
-                <li class="li-maisnotic">
+                <li class="li-maisnotic" >
                     <a href="/todas-noticias">Ver todas notícias</a>
                 </li>
             </ul>
@@ -117,32 +117,32 @@
                 <tr>
                   <td class="horaf">13:00 às 14:00</td>
                   <td>Celebrai</td>
-                  <td>Mexico</td>
+                  <td>Piloto</td>
                 </tr>
                 <tr>
                   <td class="horaf">14:00 às 16:00</td>
                   <td>Fuzooê</td>
-                  <td>Austria</td>
+                  <td>Piloto</td>
                 </tr>
                 <tr>
                   <td class="horaf">16:00 às 18:00</td>
                   <td>Puxa o fole</td>
-                  <td>UK</td>
+                  <td>Piloto</td>
                 </tr>
                 <tr>
                   <td class="horaf">18:00 às 19:00</td>
                   <td>Por do sol</td>
-                  <td>Germany</td>
+                  <td>Piloto</td>
                 </tr>
                 <tr>
                   <td class="horaf">19:00 às 20:00</td>
                   <td>Voz do Brasil</td>
-                  <td>Canada</td>
+                  <td>Jornal</td>
                 </tr>
                 <tr>
                   <td class="horaf">20:00 às 23:59</td>
                   <td>Voo Noturno</td>
-                  <td>Italy</td>
+                  <td>Piloto Automático</td>
                 </tr>
                 <tr>
                     <td class="horaf">0:00 às 05:00</td>
@@ -153,5 +153,6 @@
         </div>
     </section>
     <script src="pageone.js"></script>
+    <script src="news.js"></script>
 </body>
 </html>

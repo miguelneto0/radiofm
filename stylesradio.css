@@ -1,0 +1,38 @@
+audio{
+    position: static;
+    margin-left: 24%;
+    width: 15%;
+    height: 20px;
+    outline-color: gray;
+}
+
+audio:focus{
+    outline: none;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #c6fa4d;
+}
+
+audio::-webkit-media-controls-play-button{
+    background-color: #d3f033;
+  color: #ffffff;
+}
+
+audio::-webkit-media-controls-volume-slider-container{
+
+    /* background-color: white; */
+    color: white;
+}
+audio::-webkit-media-controls-timeline{
+    background-color:#afe435;
+}
+
+audio::-webkit-media-controls-volume-slider{
+    background-color:#c6fa4d;
+}
+
+td.horaf{
+    font-family: Verdana, sans-serif;
+    font-weight: normal;
+}

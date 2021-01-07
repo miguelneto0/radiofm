@@ -46,11 +46,27 @@ li.week{
     border-radius: 40px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
     color: yellow;
     border: 2px solid yellow;
+    transition: 1.2s ease-in-out;
+}
+
+li.week:hover{
+    background-color: rgb(179, 170, 54);
+    color: rgb(69, 18, 117);
+}
+
+li.activate:hover{
+    background-color: yellow;
+}
+
+li.week:hover,li.activate:hover{
+    cursor: pointer;
 }
 
 li.activate{
     color: purple;
     background-color: yellow;
+    font-size: 1vw;
 }

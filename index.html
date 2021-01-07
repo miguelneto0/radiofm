@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="pagina-two.css">
     <link rel="stylesheet" href="pagina-three.css">
     <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="stylesradio.css">
 </head>
 <body>
     <section class="sec1">
@@ -21,7 +22,11 @@
              <li class="menu-li li-normal">Fale conosco</li>
              <li class="menu-li li-search"><input type="text" name="search" placeholder="Buscar..."></li>
             </ul>
-            <div id="player" class="player"><marquee>101,5 Mhz | Estação cidade com Piloto das 10:00 às 13:00 &nbsp;&nbsp;&nbsp;&nbsp;|| <b>ZYC 636 FM</b></marquee></div>
+            <div id="player" class="player"><marquee><strong>101,5 Mhz</strong> &nbsp;&nbsp;| &nbsp;&nbsp;Rádio FM Cidade de Pedreiras-MA &nbsp;&nbsp;|&nbsp;&nbsp; <b>TOCANDO AGORA:</b>  &nbsp;Piloto 1 de <b id="toca">Estação Cidade</b> das <b id="hora">10:00 às 13:00</b> &nbsp;&nbsp;||&nbsp;&nbsp; <i id="dia">ZYC 636 FM</i></marquee></div>
+            <!--RADIO LIVE-->
+            <audio controls autoplay loop volume="60">
+                <source src="https://servidor40-4.brlogic.com:8040/live" type="audio/mpeg" >
+            </audio>
         </nav>
         <div class="front-left">
             <div class="agora">
@@ -95,45 +100,55 @@
                   <th>Apresentação</th>
                 </tr>
                 <tr>
-                  <td>07:00 às 10:00</td>
+                    <td class="horaf">06:00 às 07:00</td>
+                    <td>Igreja Shalom</td>
+                    <td>Igreja</td>
+                  </tr>
+                <tr>
+                  <td class="horaf">07:00 às 10:00</td>
                   <td>Tribuna 101</td>
                   <td>Kleber e Ribinha</td>
                 </tr>
                 <tr>
-                  <td>10:00 às 13:00</td>
+                  <td class="horaf">10:00 às 13:00</td>
                   <td>Estação Cidade</td>
                   <td>Erika Regina</td>
                 </tr>
                 <tr>
-                  <td>13:00 às 14:00</td>
+                  <td class="horaf">13:00 às 14:00</td>
                   <td>Celebrai</td>
                   <td>Mexico</td>
                 </tr>
                 <tr>
-                  <td>14:00 às 16:00</td>
+                  <td class="horaf">14:00 às 16:00</td>
                   <td>Fuzooê</td>
                   <td>Austria</td>
                 </tr>
                 <tr>
-                  <td>16:00 às 18:00</td>
+                  <td class="horaf">16:00 às 18:00</td>
                   <td>Puxa o fole</td>
                   <td>UK</td>
                 </tr>
                 <tr>
-                  <td>18:00 às 19:00</td>
+                  <td class="horaf">18:00 às 19:00</td>
                   <td>Por do sol</td>
                   <td>Germany</td>
                 </tr>
                 <tr>
-                  <td>19:00 às 20:00</td>
+                  <td class="horaf">19:00 às 20:00</td>
                   <td>Voz do Brasil</td>
                   <td>Canada</td>
                 </tr>
                 <tr>
-                  <td>20:00 às 23:59</td>
+                  <td class="horaf">20:00 às 23:59</td>
                   <td>Voo Noturno</td>
                   <td>Italy</td>
                 </tr>
+                <tr>
+                    <td class="horaf">0:00 às 05:00</td>
+                    <td>De Volta Pro Futuro</td>
+                    <td>Piloto Automático</td>
+                  </tr>
               </table>
         </div>
     </section>

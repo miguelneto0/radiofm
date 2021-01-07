@@ -25,10 +25,11 @@ div.prog{
     /* border: 2px solid yellow; */
 }
 
-h1#notic{
+h1#notic,h1#progr{
     font-family: Calibri, sans-serif;
-    font-size: 2.5vw;
-    margin: 2%;
+    font-size: 3vw;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
     color: yellow;
 }
 
@@ -39,7 +40,7 @@ ul.ul-news{
 
 li.li-news{
     display: block;
-    background-color: rgb(203, 207, 199);
+    background-color: rgb(226, 212, 240);
     margin-bottom: 2%;
     height: 40%;
 }
@@ -52,20 +53,56 @@ p.pnew{
     margin-top: 2%;
     margin-right: 2%;
     vertical-align: middle;
+    color: rgb(58, 33, 73);
+    filter: drop-shadow(1px 1px rgba(255, 255, 255, 0.336));
     float: right;
     /* background-color: yellowgreen; */
     text-align: justify;
+    transition: .4s ease-in-out;
 }
 
+li.li-news:hover{
+    transform: translate(2px);
+    /* margin-left: 1%; */
+    background-color: rgb(205, 191, 219);
+    box-shadow: 2px 2px 3px black;
+}
+
+li.li-maisnotic{
+    box-sizing: border-box;
+    font-size: 1.1vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
 
 p.legenda{
-    z-index: 99;
-    position: relative;
+    /* position: relative; */
+    z-index: 1;
+    bottom: 2%;
+    position: sticky;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.2vw;
+    font-weight: bold;
+    box-sizing: border-box;
     color: black;
+
+}
+
+span.saiba{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8vw;
+    margin: 4%;
+}
+
+img.principal{
+    width: 100%;
+    
 }
 
 img.img-main{
+    position: absolute;
     width: 90%;
+    
 }
 
 img.img-news{

@@ -8,7 +8,7 @@ body{
 }
 
 .sec1{
-    background-image: url('images/fotofundo-editada.png');
+    background-image: url('../images/fotofundo-editada.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
@@ -100,7 +100,7 @@ div.circle{
     float: left;
     width: 25%;
     height: 100%;
-    background-image: url('images/logo-canal.png');
+    background-image: url('../images/logo-canal.png');
     background-size: 100%;
     background-repeat: no-repeat;
     /* border: 2px solid white; */

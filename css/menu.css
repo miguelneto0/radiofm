@@ -78,7 +78,7 @@ input[name=search]{
     border: 3px solid rgb(71, 41, 141);
     padding: 12px;
     border-radius: 4px;
-    background-image: url('searchico.png');
+    background-image: url('/icons/searchico.png');
     background-position: 10px 10px;
     background-size: 6%;
     background-repeat: no-repeat;
@@ -100,5 +100,35 @@ input[name=search]:focus{
 @media screen and (max-width: 600px){
     img.image-logo{
         width: 2%;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    div.front-right{
+        height: 30%;
+    }
+    div.front-left{
+        height: 40%;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .menu-li{
+        height: 20px;
+        line-height: 20px;
+    }
+    input[name=search]{
+        height: 40%;
+    }
+    div.front-right{
+        height: 150px;
+    }
+    div.front-left{
+        height: 300px;
+    }
+    div.parceiro h2{
+        letter-spacing: 10px;
     }
 }

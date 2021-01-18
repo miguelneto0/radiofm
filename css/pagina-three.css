@@ -33,14 +33,14 @@ td:hover{
 
 ul.weekdays{
     margin: auto;
-    width: 70%;
+    width: 100%;
     /* background-color: red; */
 }
 
 li.week{
     display: inline-block;
     width: 10%;
-    margin-left: 20px;
+    margin-left: 3%;
     height: 40px;
     line-height: 40px;
     border-radius: 40px;

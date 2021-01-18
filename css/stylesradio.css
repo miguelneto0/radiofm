@@ -6,6 +6,16 @@ audio{
     outline-color: gray;
 }
 
+@media screen and (max-widt: 600px){
+    audio{
+        position: static;
+        margin-left: 24%;
+        width: 25%;
+        height: 10px;
+        outline-color: gray;
+    }
+}
+
 audio:focus{
     outline: none;
 }

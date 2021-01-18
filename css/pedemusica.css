@@ -1,0 +1,50 @@
+form.pedido{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4% 3%;
+    font-size: 1.2vw;
+}
+
+section#section1{
+    height: 760px;
+}
+
+span#emailCheck{
+    font: normal 10pt Arial;
+    color: indianred;
+}
+
+p#result{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: .8vw;
+}
+
+form.pedido input[type=text]{
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+button#buttonPedido{
+    margin: auto;
+    padding: 1%;
+    font-weight: bold;
+    float: center;
+}
+
+select{
+    height: 20px;
+}
+
+div.front-right2{
+    /*  position: relative; */
+    width: 40%;
+    height: 480px;
+    /* border: 2px solid rgb(255, 174, 0); */
+    float: right;
+    margin-top: 15%;
+    margin-right: 10%;
+    border-radius: 20px;
+    background-color: rgba(52, 9, 88, 0.808);
+}

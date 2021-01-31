@@ -131,12 +131,22 @@ img.img-news{
         height: 400px;
     }
     div.news,div.prog{
-        height: 350px;
+        height: 300px;
     }
     div.news{
         background-size: 200%;
     }
     p.legenda{
         margin-top: 80%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #noticprinc{
+        position: relative;
+        height: 280px;
+    }
+    div.prog{
+        height: 280px;
     }
 }

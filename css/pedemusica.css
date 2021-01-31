@@ -6,7 +6,7 @@ form.pedido{
 }
 
 section#section1{
-    height: 760px;
+    height: 720px;
 }
 
 span#emailCheck{
@@ -37,10 +37,15 @@ select{
     height: 20px;
 }
 
+.front-right2 input[type=text]{
+    color: greenyellow;
+    border-radius: 30x;
+}
+
 div.front-right2{
     /*  position: relative; */
     width: 40%;
-    height: 480px;
+    height: 380px;
     /* border: 2px solid rgb(255, 174, 0); */
     float: right;
     margin-top: 15%;

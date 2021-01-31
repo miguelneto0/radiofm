@@ -6,6 +6,7 @@
 }
 
 .menu-ul{   
+    position: relative;
     margin: 0;
     padding: 0;
     height: 10%;
@@ -97,11 +98,97 @@ input[name=search]:focus{
     outline: none;
 }
 
+
+#sandwich{
+    width: 40px;
+    margin: auto;
+    padding: 5px;
+    /* height: 80px; */
+    /* background-color: red; */
+    /* height: 10px; */
+    /* box-sizing: border-box; */
+    opacity: 0;
+}
+
+.bar{
+    background-color: yellow;
+    width: 100%;
+    height: 4px;
+    display: none;
+    border-radius: 10px;
+}
+
+#bar1{
+    transform: translateY(1px);
+}
+
+#bar2{
+    transform: translateY(8px);
+}
+
+#bar3{
+    transform: translateY(16px);
+}
+
 @media screen and (max-width: 600px){
     img.image-logo{
         width: 2%;
     }
-    
+    li.li-search,li.li-search:focus{
+        height: 25%;
+        font-size: 10pt;
+    }
+    #sandwich{
+        opacity: 1;
+    }
+    .bar{
+        display: block;
+    }
+    #sandwich{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        padding-top: 8px;
+        /* background-color: green; */
+        height: 34px;
+    }
+    .li-normal{
+        display: inline-block;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 14pt;
+        width: 100%;
+        background-color: rgb(40, 6, 65);
+        display: none;
+    }
+    .li-normal:hover{
+        background-color: black;
+        border-bottom: 2px solid purple;
+    }
+    .li-sand{
+        /* position: absolute; */
+        /* background-color: red; */
+        height: 80px;
+        width: 100%;
+    }
+    .li-search{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        /* background-color: red; */
+        /* display: none; */
+    }
+    .li-img{
+        /* position: absolute; */
+        height: 34px;
+    }
+    input[name=search]{
+        background-size: 20%;
+        overflow: hidden;
+    }
+    input[name=search]:hover{
+        background-size: 20%;
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -110,6 +197,16 @@ input[name=search]:focus{
     }
     div.front-left{
         height: 40%;
+    }
+    div.player{
+        height: 2%;
+        font-size: 8pt;
+    }
+    .li-search{
+        width: 20%;
+    }
+    audio{
+        height: 1%;
     }
 
 }
@@ -130,5 +227,8 @@ input[name=search]:focus{
     }
     div.parceiro h2{
         letter-spacing: 10px;
+    }
+    .li-search{
+        width: 20%;
     }
 }

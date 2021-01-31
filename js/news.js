@@ -94,10 +94,10 @@ function changeNews(){
     principal.style.backgroundImage = "url('" + imgnew.src + "')"
 }
 
-function mousenews(){
-    principal = document.getElementById("noticprinc")
-    principal.style.backgroundImage = "url('" + imgnew.src + "linear-gradient(to bottom, rgba(126, 137, 231, 0.52), rgba(50, 6, 68, 0.73)), url('images/news1.jpg')"
-}
+// function mousenews(){
+//     principal = document.getElementById("noticprinc")
+//     principal.style.backgroundImage = "linear-gradient(to bottom, rgba(126, 137, 231, 0.52), rgba(50, 6, 68, 0.73))"
+// }
 
 // var i = 0, j = 0
 // var li_news = document.getElementsByClassName('li-news')

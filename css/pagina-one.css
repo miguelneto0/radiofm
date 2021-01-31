@@ -239,4 +239,7 @@ span.spage1{
     div.front-right,div.front-left{
         height: 20%;
     }
+    .sec1{
+        height: 400px;
+    }
 }

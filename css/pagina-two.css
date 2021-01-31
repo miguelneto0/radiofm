@@ -125,3 +125,18 @@ img.img-news{
     margin: 2% 2%;
     float: left;
 }
+
+@media screen and (max-width:600px){
+    .sec2{
+        height: 400px;
+    }
+    div.news,div.prog{
+        height: 350px;
+    }
+    div.news{
+        background-size: 200%;
+    }
+    p.legenda{
+        margin-top: 80%;
+    }
+}

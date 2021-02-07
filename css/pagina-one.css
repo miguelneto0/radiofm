@@ -330,6 +330,9 @@ span.spage1{
     div.parceiro h2{
         font-size: 1.5vh;
     }
+    div.circle{
+        width: 16%;
+    }
 }
 
 @media (max-width:460px){
@@ -341,5 +344,8 @@ span.spage1{
     }
     img#imgprog{
         width:20vw;
+    }
+    div.circle{
+        width: 20%;
     }
 }

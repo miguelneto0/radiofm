@@ -70,3 +70,9 @@ li.activate{
     background-color: yellow;
     font-size: 1vw;
 }
+
+@media (max-width:540px){
+    ul.weekdays{
+        display: inline;
+    }
+}

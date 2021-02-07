@@ -199,7 +199,10 @@ p.tocando{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     font-size: .8vw;
-    
+    width: 50%; 
+    padding: 2%; 
+    color: white; 
+    text-align: center;
 }
 
 img#noar{
@@ -241,5 +244,102 @@ span.spage1{
     }
     .sec1{
         height: 400px;
+    }
+}
+
+@media (max-width:450px){
+    .sec1{
+        width: 100%;
+        height: 300px;
+    }
+    div.front-left{
+        margin-top: 25%;
+        height:30%;
+    }
+}
+
+@media (max-width:540px){
+    p.paragsup{
+        font-size: 2.2vw;
+    }
+    i.aovivo{
+        font-size: 8vw;
+    }
+    a#ainst,#numwhat{
+        font-size: 1.8vw;
+    }
+    p.parag{
+        margin-top: 8%;
+        font-size: 2vw;
+    }
+    section.sec1{
+        height: 500px;
+        width: 100%;
+    }
+    section.sec2{
+        height: 300px;
+    }
+    div.front-left{
+        float: none;
+        margin: auto;
+        width: 90%;
+        margin-top: 15%;
+        height: 10%;
+        /* background-color: yellow; */
+    }
+    div.agora{
+        width: 85%;
+        height: 50%;
+        /* background-color: red; */
+    }
+    div#imgnoar{
+        padding-top: 5%;
+        width: 50%;
+        float: left;
+    }
+    p.tocando{
+        width: 100%;
+        font-size: 2vw;
+        /* background-color: black; */
+        /* float: center; */
+        margin: 0;
+        top: 0;
+        /* padding-bottom: 20%; */
+    }
+    div#tocandoprog{
+        margin: 0;
+        width: 50%;
+        float: right;
+        /* background-color: violet; */
+        height: 100%;
+        bottom: 0;
+    }
+    img#imgprog{
+        width: 90%;
+    }
+    div.parceiro{
+        width: 85%;
+        height: 40%;
+        /* background-color: green; */
+    }
+    div.front-right{
+        float: none;
+        margin: auto;
+        width: 90%;
+    }
+    div.parceiro h2{
+        font-size: 1.5vh;
+    }
+}
+
+@media (max-width:460px){
+    div.front-left{
+        margin-top: 18%;
+    }
+    div#tocandoprog{
+        width: 50%;
+    }
+    img#imgprog{
+        width:20vw;
     }
 }
